@@ -7,10 +7,6 @@ network:
      dhcp6: no
      addresses: [lc-host-network]
      addresses: [lc-host-steam]
-     addresses: [lc-host-steam2]
-     addresses: [lc-host-steam3]
-     addresses: [lc-host-steam4]
-     addresses: [lc-host-steam5]
      addresses: [lc-host-riot]
      addresses: [lc-host-blizzard]
      addresses: [lc-host-hirez]
