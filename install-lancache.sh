@@ -232,8 +232,8 @@ echo "##########################################################################
 echo "Current interface name: $if_name"
 echo "##############################################################################################"
 echo ""
-#ip link | awk -F: '$0 !~ "lo|vir|wl|^[^0-9]"{print $2;getline}'
-#if_name=$(ifconfig | grep flags | awk -F: '{print $1;}' | grep -Fvx -e lo)
+ip link | awk -F: '$0 !~ "lo|vir|wl|^[^0-9]"{print $2;getline}'
+if_name=$(ifconfig | grep flags | awk -F: '{print $1;}' | grep -Fvx -e lo)
 
 ### To Do Still
 ### Systemd Scripts for everything
@@ -246,9 +246,9 @@ echo "##########################################################################
 echo "DNS Server IP Address / Point Clients to Use this DNS Server: $lc_network"
 echo "##############################################################################################"
 echo ""
-#echo $lc_base_folder
-#echo $lc_ip_p4
-#echo $lc_gateway
+echo $lc_base_folder
+echo $lc_ip_p4
+echo $lc_gateway
 echo "##############################################################################################"
 echo "Reboot System"
 echo "##############################################################################################"
