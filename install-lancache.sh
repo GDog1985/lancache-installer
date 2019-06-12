@@ -9,7 +9,7 @@ fi
 # File path for lancache
 lc_srv_loc="/srv/lancache"
 # Primary DNS Server
-lc_dns1="10.0.0.200"
+lc_dns1="1.1.1.1"
 # Secondary DNS Server
 lc_dns2="10.0.0.5"
 # Proxy cache size, measued in Megabytes (MB). Default is 500GB
