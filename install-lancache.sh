@@ -90,7 +90,7 @@ if [[ ! -d $lc_base_folder ]]; then
 fi
 
 cd $lc_dl_dir
-git clone -b master http://github.com/nexusofdoom/lancache-installer
+git clone -b master https://github.com/GDog1985/lancache-installer
 echo "Configuring IP Addressing..."
 for service in ${lc_services[@]}; do
 	# Check if the folder exists if not creates it
